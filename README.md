@@ -38,7 +38,7 @@ Please cite this compendium as:
 
 The **analysis** directory contains:
 
--   [:file_folder: paper](/analysis/code): The code to run the analysis.
+-   [:file_folder: code](/analysis/code): The code to run the analysis.
     You can run ´run_all_scripts.R´ to do the full analysis based on the
     input data. You can also run the individual scripts sequentially to
     see the inbetween results. Functions used in the analysis are
