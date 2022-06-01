@@ -30,7 +30,7 @@ Our pre-print is online here:
 
 This prerelease contains not the actual dataset used in the analysis of that paper, but a dummy dataset based on iberian Bell Beakers.
 
-__Do not use this dummy data for real research analysis!!!__
+**Do not use this dummy data for real research analysis!!!**
 
 ### How to cite
 
@@ -40,10 +40,10 @@ Please cite this compendium as:
 
 ## Contents
 
-The __analysis__ directory contains:
+The **analysis** directory contains:
 
   - [:file\_folder: code](/analysis/code): The code to run the analysis. You can run ´run_all_scripts.R´ to do the full analysis based on the input data. You can also run the individual scripts sequentially to see the inbetween results. Functions used in the analysis are defined in the ´00_helper_functions´ folder.
-  - [:file\_folder: data](/analysis/data): Data used in the analysis. For this pre-release, this folder contains __Dummy data!!!__
+  - [:file\_folder: data](/analysis/data): Data used in the analysis. For this pre-release, this folder contains **Dummy data!!!**
 
 ## How to run in your browser or download and run locally
 
@@ -68,9 +68,9 @@ You can download the compendium as a zip from from this URL:
 
 ### Licenses
 
-__Text, Code and figures :__  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+**Text, Code and figures :**  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
 
-__Data :__ [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse
+**Data :** [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse
 
 ### Contributions
 
