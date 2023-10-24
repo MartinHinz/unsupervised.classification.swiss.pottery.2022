@@ -59,9 +59,7 @@ You can download the compendium as a zip from from this URL:
 After unzipping: - open the `.Rproj` file in RStudio - run
 `devtools::install()` to ensure you have the packages this analysis
 depends on (also listed in the [DESCRIPTION](/DESCRIPTION) file). -
-finally, open `analysis/paper/paper.Rmd` and knit to produce the
-`paper.docx`, or run `rmarkdown::render("analysis/paper/paper.Rmd")` in
-the R console
+finally, open `analysis/code/run_all_scripts.R`
 
 ### Licenses
 
