@@ -20,11 +20,7 @@ Title <- "Unsupervised Classification of Neolithic Pottery from the northern Alp
 
 This repository contains the data and code for our paper:
 
-> Hinz, M., Heitz, C., (2022). _`r Title`_. Name of journal/book <https://doi.org/xxx/xxx>
-
-Our pre-print is online here:
-
-> Hinz, M., Heitz, C., (2022). _`r Title`_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Hinz, M., Heitz, C., (2022). _`r Title`_. Open Archaeology 8(1) <https://doi.org/10.1515/opar-2022-0274>
 
 ## Pre-Release
 
@@ -60,7 +56,7 @@ Docker images to ensure a consistent and reproducible computational
 environment. These Docker images can also be used locally.
 
 You can download the compendium as a zip from from this URL:
-[master.zip](/archive/master.zip). After unzipping:
+[master.zip](https://codeload.github.com/MartinHinz/unsupervised.classification.swiss.pottery.2022/zip/refs/heads/master). After unzipping:
 - open the `.Rproj` file in RStudio
 - run `devtools::install()` to ensure you have the packages this analysis depends on (also listed in the
 [DESCRIPTION](/DESCRIPTION) file).

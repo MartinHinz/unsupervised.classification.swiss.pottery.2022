@@ -8,15 +8,8 @@
 This repository contains the data and code for our paper:
 
 > Hinz, M., Heitz, C., (2022). *Unsupervised Classification of Neolithic
-> Pottery from the northern Alpine Space using t-SNE and HDBSCAN*. Name
-> of journal/book <https://doi.org/xxx/xxx>
-
-Our pre-print is online here:
-
-> Hinz, M., Heitz, C., (2022). *Unsupervised Classification of Neolithic
-> Pottery from the northern Alpine Space using t-SNE and HDBSCAN*. Name
-> of journal/book, Accessed 01 Jun 2022. Online at
-> <https://doi.org/xxx/xxx>
+> Pottery from the northern Alpine Space using t-SNE and HDBSCAN*. Open
+> Archaeology 8(1) <https://doi.org/10.1515/opar-2022-0274>
 
 ## Pre-Release
 
@@ -29,22 +22,22 @@ that paper, but a dummy dataset based on iberian Bell Beakers.
 
 Please cite this compendium as:
 
-> Hinz, M., Heitz, C., (2022). *Compendium of R code and data for
+> Hinz, M., Heitz, C., (2023). *Compendium of R code and data for
 > Unsupervised Classification of Neolithic Pottery from the northern
-> Alpine Space using t-SNE and HDBSCAN*. Accessed 01 Jun 2022. Online at
+> Alpine Space using t-SNE and HDBSCAN*. Accessed 24 Oct 2023. Online at
 > <https://doi.org/xxx/xxx>
 
 ## Contents
 
 The **analysis** directory contains:
 
--   [:file_folder: code](/analysis/code): The code to run the analysis.
-    You can run ´run_all_scripts.R´ to do the full analysis based on the
-    input data. You can also run the individual scripts sequentially to
-    see the inbetween results. Functions used in the analysis are
-    defined in the ´00_helper_functions´ folder.
--   [:file_folder: data](/analysis/data): Data used in the analysis. For
-    this pre-release, this folder contains **Dummy data!!!**
+- [:file_folder: code](/analysis/code): The code to run the analysis.
+  You can run ´run_all_scripts.R´ to do the full analysis based on the
+  input data. You can also run the individual scripts sequentially to
+  see the inbetween results. Functions used in the analysis are defined
+  in the ´00_helper_functions´ folder.
+- [:file_folder: data](/analysis/data): Data used in the analysis. For
+  this pre-release, this folder contains **Dummy data!!!**
 
 ## How to run in your browser or download and run locally
 
@@ -62,12 +55,13 @@ Docker images to ensure a consistent and reproducible computational
 environment. These Docker images can also be used locally.
 
 You can download the compendium as a zip from from this URL:
-[master.zip](/archive/master.zip). After unzipping: - open the `.Rproj`
-file in RStudio - run `devtools::install()` to ensure you have the
-packages this analysis depends on (also listed in the
-[DESCRIPTION](/DESCRIPTION) file). - finally, open
-`analysis/paper/paper.Rmd` and knit to produce the `paper.docx`, or run
-`rmarkdown::render("analysis/paper/paper.Rmd")` in the R console
+[master.zip](https://codeload.github.com/MartinHinz/unsupervised.classification.swiss.pottery.2022/zip/refs/heads/master).
+After unzipping: - open the `.Rproj` file in RStudio - run
+`devtools::install()` to ensure you have the packages this analysis
+depends on (also listed in the [DESCRIPTION](/DESCRIPTION) file). -
+finally, open `analysis/paper/paper.Rmd` and knit to produce the
+`paper.docx`, or run `rmarkdown::render("analysis/paper/paper.Rmd")` in
+the R console
 
 ### Licenses
 
